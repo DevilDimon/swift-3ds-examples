@@ -34,9 +34,8 @@ struct App {
             // Wait for VBlank
             // Can't use the function above because C interop doesn't support func macros
             // https://forums.swift.org/t/unavailable-function-like-macros-not-supported/73366
-            // So I use the func the macro eventually points to
-            // gspWaitForVBlank()
-            gspWaitForEvent(GSPGPU_EVENT_VBlank0, true)
+            // So I use the manual inline wrapper around it
+            gspWaitForVBlankWrapper()
         }
 
         gfxExit()
