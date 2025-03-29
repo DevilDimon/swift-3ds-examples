@@ -2,7 +2,7 @@
 
 This repo demonstrates how Embedded Swift can be used as a language for writing 3DS Homebrew.
 
-It is not intended to be a full-featured Swift wrapper of [libctru](https://libctru.devkitpro.org/index.html), it's just a few examples to show that Swift can compile an run on 3DS.
+It is not intended to be a full-featured Swift wrapper of [libctru](https://libctru.devkitpro.org/index.html), it's just a few examples to show that Swift can compile and run on 3DS.
 
 # Building 
 The following assumes you're running macOS 15. Linux/Windows should be similar.
