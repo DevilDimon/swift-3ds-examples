@@ -25,6 +25,7 @@ Build config: +assertions
 ```
 
 * Navigate to the folder with an example and execute `make`. The new `*.3dsx` file should appear, which is the program executable Swift on 3DS!
+* You can also try the Xcode project – open the project and Build. It is not tested to work outside my machine.
 
 
 # Running

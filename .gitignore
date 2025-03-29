@@ -4,6 +4,9 @@ build
 *.elf
 *.smdh
 
+# Xcode User settings
+xcuserdata/
+
 # General
 .DS_Store
 .AppleDouble
